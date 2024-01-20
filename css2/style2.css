@@ -1,0 +1,139 @@
+#para1{
+    color:black;
+    background-color:blanchedalmond;
+    border: 0.3em;
+    border-style: double;
+    font-weight: medium;
+    font-stretch: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px,2px,2px,gray;
+    text-align: justify;
+    letter-spacing: 0.025em;
+    word-spacing: 0.25em;
+    line-height: 150%;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px gray;
+    border-radius:80px 50px;
+    -moz-border-radius:80px 50px;
+    -webkit-border-radius:80px 50px;
+    font-size: 16px;
+    padding:15px;
+    box-shadow: 10px 10px 10px gray;
+    -moz-box-shadow: 10px 10px 10px gray;
+    -webkit-box-shadow: 10px 10px 10px gray;
+    margin: 30px; 
+
+    
+}
+.table
+{
+    width: 300px;
+    margin:auto;  /* to bring the table to the centre*/
+    border-spacing :10px 10px ; /*space between the boxes  in the table*/
+    border-collapse: collapse; /* for no space between the boxes in the table*/
+}
+
+th
+{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding:10px;
+    
+}
+
+td
+{
+padding: 10px; /* to increase the space between the adjacent rows*/
+border:2px solid black;
+}
+
+li
+{
+    display: inline; /*to display the elements of a list in a horizontal manner like that of a navigation bar*/
+    margin: 1em;
+}
+
+tr:nth-child(even) /* to select the alternate rows of a table*/
+{
+    background-color: whitesmoke; 
+}
+.regform
+{
+    width:400px;
+    background-color:rgba(0,0,0, 0.65);
+    margin:250px auto;
+    color: white;
+    padding:25px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.regform h1{
+    color: rgba(255, 174, 0, 0.65);
+    text-align: center;
+    font-size: 35px;
+}
+.radio
+{
+    display:inline;
+}
+body
+{
+    background:url(/media/image7.webp);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textlabel
+{
+    display: block;
+}
+.input input{
+    width:100%;
+    font-size : 0.9em ;
+    border:1px solid black;
+    box-shadow: 2px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box; /*by using this the size of the input box doesnt increase with padding.padding will be done within the width of the input box*/
+    margin:5px 0px 15px 0px;
+}
+input:focus
+{
+    background-color: gray;
+}
+.checkbox
+{
+    padding: 20px 0px 0px 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.button
+{
+    padding : 20px 0px 0px 0px;
+}
+button
+{
+    font-size: 20px;
+    background-color:rgba(255, 174, 0, 0.75);
+    border-radius:10px;
+    padding:5px 10px;
+    border-color:rgba(255, 174, 0, 0.75);
+    box-shadow: 10px rgba(255, 174, 0, 0.65);
+    margin:5px;
+
+}
+.radio input
+{
+    accent-color:rgba(255, 174, 0, 0.65);/* to change the colour of selection of the checkbox and circle for the gender*/
+    transform: scale(1.5); /*to increase the size of the checkbox and the circle for gender*/
+}
+.checkbox input
+{
+    accent-color:rgba(255, 174, 0, 0.65);;
+   
+}
+
+.button1:hover
+{
+    background-color:orange;
+}
